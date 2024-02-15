@@ -22,8 +22,9 @@ a {
 .navbar {
   position: sticky;
   top: 0;
+  background: #fff;
   padding-top: 30px;
-  height: 50px;
+  height: 72px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -47,8 +48,6 @@ a {
   align-items: center;
   cursor: pointer;
   text-decoration: none;
-  font-size: 1.5rem;
-  font-weight: 400;
 }
 
 .navbar_menu {
@@ -166,7 +165,7 @@ a {
   margin: auto;
   width: 50vw;
   box-sizing: border-box;
-  margin-top: 10vh;
+  margin-top: 50vh;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -177,7 +176,7 @@ a {
 .home_section h1 {
   font-size: 300%;
   margin-left: -50px;
-  margin-right: 35vh;
+  margin-right: 15px;
   color: #00069a;
   margin-top: -10vh;
   letter-spacing: -1px;
@@ -191,8 +190,20 @@ a {
   font-weight: 600;
   line-height: 150%;
   margin-left: -50px;
-  margin-right: 10vh;
+  margin-right: 10px;
   margin-top: 15px;
+}
+
+.home_section img {
+  color: #fff;
+  display: flex;
+  height: 575px;
+  width: 590px;
+  top: -237px;
+  left: 317px;
+  align-items: center;
+  text-decoration: none;
+  margin-bottom: 30vh;
 }
 
 @media screen and (max-width: 768px) {
